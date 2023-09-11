@@ -1,4 +1,5 @@
-import { withClerkMiddleware } from "@clerk/nextjs/server";
+import { withClerkMiddleware } from "@clerk/nextjs";
+import { WithClerkMiddleware } from "@clerk/nextjs/server";
 import { NextResponse } from "next/server";
 import type { NextRequest } from 'next/server'
 
